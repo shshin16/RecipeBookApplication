@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="Login" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/nav_shake"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Shake n Make" />
+
+        <item
+            android:id="@+id/nav_snap"
+            android:icon="@drawable/ic_camera_enhance_black_24dp"
+            android:title="Snap n Make" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
