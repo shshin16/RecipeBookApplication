@@ -17,20 +17,20 @@ public class hAdapter extends RecyclerView.Adapter<hAdapter.ViewHolder> {
     private String[] titles = {"Korean Food",
             "Italy Food",
             "American Food",
-            "Chapter Four",
-            "Chapter Five",
-            "Chapter Six",
-            "Chapter Seven",
-            "Chapter Eight"};
+            "China Food",
+            "Japaneses Food",
+            "India Food",
+            "French Food",
+            "English Food"};
 
-    private int[] images = { R.drawable.android_image_1,
-            R.drawable.android_image_2,
-            R.drawable.android_image_3,
-            R.drawable.android_image_4,
-            R.drawable.android_image_5,
-            R.drawable.android_image_6,
-            R.drawable.android_image_7,
-            R.drawable.android_image_8 };
+    private int[] images = { R.drawable.bbab,
+            R.drawable.italy,
+            R.drawable.american,
+            R.drawable.china,
+            R.drawable.japan,
+            R.drawable.india,
+            R.drawable.french,
+            R.drawable.english };
 
     class ViewHolder extends RecyclerView.ViewHolder {
 
